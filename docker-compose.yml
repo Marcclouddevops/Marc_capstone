@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: marc_capstone/dev:latest
+    build: .
     ports:
       - "80:80"
